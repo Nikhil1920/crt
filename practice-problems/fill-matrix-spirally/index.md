@@ -2,10 +2,11 @@
 title: Fill matrix spirally
 published: 2021-08-25T09:45:00
 updated: 2021-08-25T09:45:00
-tags: ["daily-contest", "java", "25-05-2021"]
+tags: ["Practice Problems", "crt"]
 ---
+
 Given a R x C matrix Fill matrix with values from 1 to RxC spirally.
-We've to repeatedly print elements using these orders (Left->Right, 
+We've to repeatedly print elements using these orders (Left->Right,
 Top->Down, Right->Left, Down->Up)
 
 ## Input Format
@@ -14,6 +15,7 @@ Line 1: Integer T - number of test cases.\
 Next T lines contain a pair of integers per line R C
 
 ## Constraints
+
 ```
 1 <= T <= 100
 1 <= R, C <= 100
@@ -21,10 +23,11 @@ Next T lines contain a pair of integers per line R C
 
 ## Output Format
 
-For each test case, print RxC matrix on output which is filled spirally. 
+For each test case, print RxC matrix on output which is filled spirally.
 Also print newline after all the elements have been printed.
 
 ## Sample Input 0
+
 ```
 2
 3 3
@@ -32,6 +35,7 @@ Also print newline after all the elements have been printed.
 ```
 
 ## Sample Output 0
+
 ```
 1 2 3
 8 9 4
@@ -40,7 +44,9 @@ Also print newline after all the elements have been printed.
 1 2 3 4
 8 7 6 5
 ```
+
 ## Solution in java
+
 ```java
 import java.util.Scanner;
 

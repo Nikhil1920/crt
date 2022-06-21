@@ -2,12 +2,13 @@
 title: Toeplitz Matrix
 published: 2021-08-28T09:36:00
 updated: 2021-08-28T09:36:00
-tags: ["daily-contest", "java", "28-08-2021"]
+tags: ["Practice Problems", "crt"]
 ---
-Given an m x n matrix, return true if the matrix is Toeplitz. 
+
+Given an m x n matrix, return true if the matrix is Toeplitz.
 Otherwise, return false.
 
-A matrix is Toeplitz if every diagonal from top-left to 
+A matrix is Toeplitz if every diagonal from top-left to
 bottom-right has the same elements.
 
 ```
@@ -16,14 +17,14 @@ bottom-right has the same elements.
 9 5 1 2
 ```
 
-In the above grid, the diagonals are: "[9]", "[5, 5]", "[1, 1, 
-1]", "[2, 2, 2]", "[3, 3]", "[4]". In each diagonal all 
+In the above grid, the diagonals are: "[9]", "[5, 5]", "[1, 1,
+1]", "[2, 2, 2]", "[3, 3]", "[4]". In each diagonal all
 elements are the same, so the answer is True.
 
 ## Input Format
 
-First line of input contains N, M - size of the matrix. Its 
-followed by N lines each containing M intergers - elements of 
+First line of input contains N, M - size of the matrix. Its
+followed by N lines each containing M intergers - elements of
 the matrix.
 
 ## Constraints
@@ -36,6 +37,7 @@ the matrix.
 Print "true" if matrix is Toeplitz else print "false".
 
 ## Sample Input
+
 ```
 3 4
 1 2 3 4
@@ -48,6 +50,7 @@ Print "true" if matrix is Toeplitz else print "false".
 true
 
 ## Solution in java
+
 ```java
 import java.util.Scanner;
 

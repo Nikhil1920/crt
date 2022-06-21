@@ -2,11 +2,12 @@
 title: Intersection Of Arrays
 published: 2021-09-31T09:36:00
 updated: 2021-09-31T09:36:00
-tags: ["daily-contest", "java", "31-09-2021"]
+tags: ["Practice Problems", "crt"]
 ---
-Given two arrays A and B of size N and M respectively, print the count of 
+
+Given two arrays A and B of size N and M respectively, print the count of
 elements in the intersection (or common elements) of the two arrays.
-For this question, the intersection of two arrays can be defined as the set 
+For this question, the intersection of two arrays can be defined as the set
 containing distinct common elements between the two arrays.
 
 Note: You are not allowed to use built-in data structures (Set/Map/
@@ -16,7 +17,7 @@ Dictionary) and built-in functions like Sort.
 
 First line contains integer T - number of test cases.
 
-Each test case consists of 2 lines of input each giving size followed by 
+Each test case consists of 2 lines of input each giving size followed by
 array elements on a line:\
 N A1 A2 A3 .... AN\
 M B1 B2 .... BM
@@ -29,10 +30,11 @@ M B1 B2 .... BM
 
 ## Output Format
 
-For each test case, print a separate line of outout containing count of 
+For each test case, print a separate line of outout containing count of
 elements in intersection Set of A and B.
 
 ## Sample Input 0
+
 ```
 3
 5 1 2 2 3 3
@@ -44,6 +46,7 @@ elements in intersection Set of A and B.
 ```
 
 ## Sample Output 0
+
 ```
 3
 0
@@ -51,6 +54,7 @@ elements in intersection Set of A and B.
 ```
 
 ## Intersection Of Arrays Solution in java
+
 ```java
 import java.util.Scanner;
 

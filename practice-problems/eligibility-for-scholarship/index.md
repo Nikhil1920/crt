@@ -2,7 +2,7 @@
 title: Eligibility for Scholarship
 published: 2021-08-24T09:45:00
 updated: 2021-08-24T09:45:00
-tags: ["daily-contest", "java", "24-05-2021"]
+tags: ["Practice Problems", "crt"]
 ---
 
 Shreya is an average student in her school. She wants to get scholarship but her teacher gave her a puzzle to solve, in puzzle she will be given a non-negative integer N, and she needs to calculate sum of digits of N. If sum of digits of N is greater than 20 she will get the scholarship otherwise she will not get it.

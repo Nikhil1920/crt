@@ -2,8 +2,9 @@
 title: Help Rishab
 published: 2021-08-24T09:45:00
 updated: 2021-08-24T09:45:00
-tags: ["daily-contest", "java", "24-05-2021"]
+tags: ["Practice Problems", "crt"]
 ---
+
 Each student in KLU is given a matrix and are assigned with few tasks, Rishab being a student of kLU is also given a matrix and is assigned few tasks to perform on matrix but he is not aware of matrices so you being his mate need to get his tasks done.
 
 Task 1- Given a matrix, transpose the matrix and print it.\
@@ -16,6 +17,7 @@ First line consists of dimensions of matrix r,c.
 Next r line consists of matrix elements.
 
 ## Constraints
+
 ```
 1 < r,c < 10
 ```
@@ -26,6 +28,7 @@ first c lines of output consists of transposed matrix.
 Next line consists of absolute difference of maximum row sum and maximum coloumn sum of transposed matrix.
 
 ## Sample Input 0
+
 ```
 3 3
 1 2 3
@@ -34,14 +37,16 @@ Next line consists of absolute difference of maximum row sum and maximum coloumn
 ```
 
 ## Sample Output 0
+
 ```
-1 2 3 
-2 1 1 
+1 2 3
+2 1 1
 3 3 2
 2
 ```
 
 ## Solution in java
+
 ```java
 import java.util.Scanner;
 
